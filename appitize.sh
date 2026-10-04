@@ -661,6 +661,8 @@ process.executableURL = URL(fileURLWithPath: chrome)
 
 process.arguments = [
     "--user-data-dir=$PROFILE",
+    "--no-first-run",
+    "--no-default-browser-check",
     "--use-mock-keychain",
     "--password-store=basic",
 $PROXY_SWIFT_ARGS

@@ -110,6 +110,8 @@ The launcher runs Chrome with:
 
 ```
 --user-data-dir=~/Library/Application Support/Chrome-<slug>
+--no-first-run
+--no-default-browser-check
 --use-mock-keychain
 --password-store=basic
 --proxy-server=<proxy>
@@ -237,6 +239,8 @@ App name [ChatGPT]:
 
 ```
 --user-data-dir=~/Library/Application Support/Chrome-<slug>
+--no-first-run
+--no-default-browser-check
 --use-mock-keychain
 --password-store=basic
 --proxy-server=<代理>
