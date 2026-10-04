@@ -259,3 +259,10 @@ App name [ChatGPT]:
   打开，或在"系统设置"中允许。
 - **钥匙串弹窗**：已通过 `--use-mock-keychain` 处理；万一仍出现 "Where is the
   Chrome keychain"，点 **取消**（切勿点"还原为默认"）。
+
+---
+
+## License
+
+[MIT](LICENSE) © 2026 Jie Cui
+
